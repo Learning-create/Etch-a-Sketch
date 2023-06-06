@@ -1,5 +1,5 @@
 const container = document.getElementById("container");
-let num = 2;
+let num = 16;
 
 function createGrid() {
 
@@ -16,14 +16,9 @@ function createGrid() {
         newRow.appendChild(newCell);
   
         newCell.addEventListener("mouseenter", function( event ) {   
-          event.target.style.backgroundColor = "blue";
+          event.target.classList.add("activeCell");
         });
-
-        /*this would clear the cells as you leave the cell
-        cell.addEventListener("mouseleave", function( event ) {   
-          event.target.style.backgroundColor = "white";
-        }, false); */
-
+        
       }
   }
 
