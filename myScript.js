@@ -26,7 +26,7 @@ function createGrid() {
 
 function changeGrid() {
 
-    test = prompt("please enter a number", "10");
+    test = prompt("How many squares per row?", "10");
 
     test = Number(test);
 
