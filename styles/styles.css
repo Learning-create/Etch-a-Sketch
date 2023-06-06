@@ -21,3 +21,9 @@
 .activeCell {
     background-color: black;
 }
+
+.btns {
+    display: flex;
+    justify-content: center;
+    padding: 2vh;
+}
