@@ -4,7 +4,7 @@
     flex-direction: column;
     width: 40vw;
     height: 40vw;
-
+    margin: auto;
 }
 
 .row {
@@ -13,8 +13,11 @@
 }
 
 .cell {
-    border: rebeccapurple solid;
     flex-grow: 1;
     align-items: center;
     justify-content: center;
+}
+
+.activeCell {
+    background-color: black;
 }
