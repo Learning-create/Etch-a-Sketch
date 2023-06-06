@@ -59,4 +59,18 @@ function changeGrid() {
 
 
 };
+
+function resetGrid() {
+
+  let row = document.getElementsByClassName("row");
+
+  while(row.length > 0) {
+    row[0].parentNode.removeChild(row[0]);
+  };
+
+  createGrid();
+
+}
+
+
 createGrid();
